@@ -17,3 +17,9 @@ npx shadcn@latest add button
 ```
 npx install lucide-react
 ```
+
+#### tailwindcss-animate
+
+```
+npm install -D tailwindcss-animate
+```
