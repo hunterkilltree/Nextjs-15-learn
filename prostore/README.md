@@ -10,6 +10,8 @@ Add component
 
 ```
 npx shadcn@latest add button
+npx shadcn@latest add dropdown-menu
+npx shadcn@latest add sheet
 ```
 
 #### Icon lib
@@ -22,4 +24,10 @@ npx install lucide-react
 
 ```
 npm install -D tailwindcss-animate
+```
+
+#### next-themes
+
+```
+npm i next-themes
 ```
