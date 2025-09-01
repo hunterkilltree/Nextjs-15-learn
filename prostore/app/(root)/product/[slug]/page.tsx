@@ -6,6 +6,7 @@ import { getProductBySlug } from "@/lib/action/product.action";
 
 import { notFound } from "next/navigation";
 import React from "react";
+import ReviewList from "./review-list";
 
 const ProductDetailsPage = async (props: {
   params: Promise<{ slug: string }>;
@@ -82,14 +83,14 @@ const ProductDetailsPage = async (props: {
           </div>
         </div>
       </section>
-      {/* <section className="mt-10">
+      <section className="mt-10">
         <h2 className="h2-bold mb-5">Customer Reviews</h2>
         <ReviewList
-          userId={userId || ""}
+          userId={"userId" || ""}
           productId={product.id}
           productSlug={product.slug}
         />
-      </section> */}
+      </section>
     </>
   );
 };

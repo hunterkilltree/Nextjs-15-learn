@@ -18,6 +18,10 @@ npx shadcn@latest add input
 npx shadcn@latest add label
 npx shadcn@latest add drawer
 npx shadcn@latest add carousel # and npm i embla-carousel-autoplay
+npx shadcn@latest add dialog
+npx shadcn@latest add form
+npx shadcn@latest add select
+npx shadcn@latest add textarea
 ```
 
 #### Icon lib
