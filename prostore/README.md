@@ -17,6 +17,7 @@ npx shadcn@latest add badge
 npx shadcn@latest add input
 npx shadcn@latest add label
 npx shadcn@latest add drawer
+npx shadcn@latest add carousel # and npm i embla-carousel-autoplay
 ```
 
 #### Icon lib

@@ -16,3 +16,9 @@ export async function getAllCategories() {
     })
   );
 }
+
+export async function getFeaturedProducts() {
+  return sampleData.products.filter(
+    (product) => product.isFeatured === true && product.banner !== null
+  );
+}
