@@ -14,6 +14,8 @@ npx shadcn@latest add dropdown-menu
 npx shadcn@latest add sheet
 npx shadcn@latest add card
 npx shadcn@latest add badge
+npx shadcn@latest add input
+npx shadcn@latest add label
 ```
 
 #### Icon lib
@@ -33,3 +35,7 @@ npm install -D tailwindcss-animate
 ```
 npm i next-themes
 ```
+
+#### Reference:
+
+https://github.com/bradtraversy/prostore/tree/tailwind4
